@@ -32,7 +32,7 @@ function renderizar(lista) {
 
     li.addEventListener("mouseenter", () => {
       feedback.textContent = `sobre ${v.nombre}`;
-      feedback.style.color = "lightgreen";
+      feedback.style.color = "coral";
     });
 
     li.addEventListener("dragstart", () => {
