@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Minitienda de Velas</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="simulador">
+    <h1>Genova velas de soja</h1>
+
+    <form id="formAgregar">
+      Nombre: <input type="text" id="nombre" required>
+      Precio: <input type="number" id="precio" required>
+      <button type="submit">+ Agregar</button>
+    </form>
+
+    <input type="text" id="busqueda" placeholder="Buscar vela...">
+
+    <div id="feedback" class="mensaje"></div>
+    <ul id="contenedorProductos"></ul>
+  </div>
+</body>
+</html>
